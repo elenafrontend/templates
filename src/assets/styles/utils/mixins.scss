@@ -1,0 +1,14 @@
+%btn {
+  // позволяет задать вертик внутр отступы + ширина по содержанию
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  // включаем принудительное наследование шрифта
+  font: inherit;
+  // убирает подчеркивание у ссылок
+  text-decoration: none;
+  background-color: transparent;
+  // рамка у кнопок
+  border: 1px solid transparent;
+  cursor: pointer;
+}

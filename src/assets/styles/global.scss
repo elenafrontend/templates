@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: $main-font;
+  font-size: $fs-m;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+  min-height: 300px;
+}
+
+.container {
+  margin: 0 auto;
+  border: 2px solid #bababa;
+  padding: 0 20px;
+  max-width: $content;
+  height: 100%;
+}
+
+.content__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+/*@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}*/
