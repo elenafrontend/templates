@@ -17,42 +17,12 @@ body {
   text-rendering: optimizeSpeed;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+img {
+  vertical-align: top;
 }
 
-.content {
-  flex: 1 0 auto;
-  min-height: 300px;
-}
-
-.container {
-  margin: 0 auto;
-  border: 2px solid #bababa;
-  padding: 0 20px;
-  max-width: $content;
-  height: 100%;
-}
-
-.content__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+a {
+  color: inherit;
 }
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */

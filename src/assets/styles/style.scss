@@ -1,7 +1,6 @@
-@import "utils/mixins";
-@import "utils/vars";
-@import 'utils/fonts';
-@import 'global';
+@import "global";
+@import "mixins";
+@import "layout";
 
 // ui-components
 //---------------------------------
@@ -9,7 +8,6 @@
 
 // components
 //---------------------------------
-@import "../../components/main-nav/main-nav";
 
 // modules
 //---------------------------------
